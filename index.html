@@ -3,22 +3,228 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Universo E-Bike</title>
+
+<title>Universo E-Bike | Peças e Acessórios para E-Bikes</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #101010;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+h1 {
+    color: #32c85a;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+}
+
+.hero span {
+    color: #32c85a;
+}
+
+.botao {
+    display: inline-block;
+    background: #32c85a;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.produtos {
+    padding: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background: #151515;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: white;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: #32c85a;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #101010;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<header>
+
+<!-- COLOQUE SUA LOGO AQUI -->
+<img class="logo" src="logo.png">
+
 <h1>Universo E-Bike</h1>
 
-<p>Peças e acessórios para bicicletas elétricas.</p>
+<p>Peças e acessórios para bicicletas elétricas</p>
+
+</header>
+
+
+<section class="hero">
+
+<h2>
+Tudo para sua <span>E-Bike</span>
+</h2>
+
+<p>
+Componentes, acessórios e peças compatíveis com os principais sistemas elétricos.
+</p>
+
+<a class="botao" href="#produtos">
+Ver produtos
+</a>
+
+</section>
+
+
+<section class="produtos" id="produtos">
 
 <h2>Produtos em destaque</h2>
 
-<ul>
-<li>Display Ananda HMI D23</li>
-<li>Graxa de Silicone Dielétrica Implastec</li>
-<li>Acelerador de Polegar 130X</li>
-</ul>
+
+<div class="grid">
+
+
+<div class="card">
+
+<!-- FOTO DO DISPLAY -->
+<img src="display-ananda.jpg">
+
+<h3>
+Display Ananda HMI D23
+</h3>
+
+<p>
+Compatível com Caloi Explorer, Caloi SUV, Street Go e Oggi.
+</p>
+
+<p class="preco">
+R$ 557,03
+</p>
+
+<a class="botao" href="https://s.shopee.com.br/6AjH9d1fsY">
+Comprar
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<!-- FOTO DA GRAXA -->
+<img src="graxa-silicone.jpg">
+
+<h3>
+Graxa de Silicone Dielétrica Implastec
+</h3>
+
+<p>
+Proteção para conectores e componentes elétricos.
+</p>
+
+<p class="preco">
+R$ 20,95
+</p>
+
+<a class="botao" href="https://s.shopee.com.br/3g1vjnBMee">
+Comprar
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<!-- FOTO DO ACELERADOR -->
+<img src="acelerador.jpg">
+
+<h3>
+Acelerador de Polegar 130X
+</h3>
+
+<p>
+Compatível com bicicletas elétricas e scooters.
+</p>
+
+<p class="preco">
+R$ 15,90
+</p>
+
+<a class="botao" href="https://s.click.aliexpress.com/e/_c3wIvUoj">
+Comprar
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+© Universo E-Bike - Todos os direitos reservados
+</p>
+
+</footer>
+
 
 </body>
 </html>
